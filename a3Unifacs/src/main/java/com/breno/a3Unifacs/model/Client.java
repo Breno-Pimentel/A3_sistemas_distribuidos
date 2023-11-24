@@ -20,4 +20,5 @@ public class Client implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer client_id;
     private String client_name;
+    private String client_cpf;
 }
